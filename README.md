@@ -1,2 +1,2 @@
-# IS-201-Project
-This is the repo for my project
+# IS-201-tutorial
+This is the tutorial
