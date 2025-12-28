@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Roadtrip Gallery</title>
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
-<body>
-    <h1>More Photos</h1>
-    <img src="Kibbie Dome.jpeg" height="200" alt="Me at the Kibbie Dome"> <br>
-    Me at the Kibbie Dome <br>
-    <img src="JC.jpeg" height="200" alt="Me and My friend JC"> <br>
-    Me and my friend JC <br>
-    <img src="Wallace.jpeg" height="200" alt="Center of the Universe"> <br>
-    In Wallace, Idaho they claim to be the "Center of the Universe" <br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjZYJ0KugRc?si=3inNsaxcUXbo6IDG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<body class="gallery-page">
+    <header class="gallery-header">
+        <h1>Roadtrip Gallery</h1>
+        <p>Snapshots from Moscow, Wallace, and the drive between.</p>
+        <div class="gallery-actions">
+            <a href="index.html">← Back to the story</a>
+        </div>
+    </header>
+
+    <section class="gallery">
+        <figure>
+            <img src="Kibbie Dome.jpeg" alt="Me at the Kibbie Dome">
+            <figcaption>First stop: the Kibbie Dome in Moscow, Idaho.</figcaption>
+        </figure>
+        <figure>
+            <img src="JC.jpeg" alt="Me and my friend JC">
+            <figcaption>Reconnecting with my friend JC during the trip.</figcaption>
+        </figure>
+        <figure>
+            <img src="Wallace.jpeg" alt="Center of the Universe sign in Wallace">
+            <figcaption>Wallace, Idaho claims to be the “Center of the Universe.”</figcaption>
+        </figure>
+    </section>
+
+    <section class="video-section">
+        <iframe src="https://www.youtube.com/embed/zjZYJ0KugRc?si=3inNsaxcUXbo6IDG" title="Roadtrip highlight video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
 </body>
 </html>
